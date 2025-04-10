@@ -23,14 +23,14 @@ const Register = ({ setToken }) => {
       <div className="login-box">
         <form onSubmit={handleSubmit}>
           <h2>Create an Account</h2>
-          <input
+          <input className="input-box"
             type="text"
             placeholder="Username"
             value={username}
             onChange={e => setUsername(e.target.value)}
             required
           />
-          <input
+          <input className="input-box"
             type="password"
             placeholder="Password"
             value={password}

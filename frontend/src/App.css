@@ -139,6 +139,61 @@ form button[type="submit"]:hover {
   font-weight: bold;
 }
 
+.input-box {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 300px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+
+.input-box:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.input-box::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+.input-box:hover {
+  border-color: #999;
+}
+
+.input-box.error {
+  border-color: #dc3545;
+}
+
+.input-box.error:focus {
+  box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
+}
+
+.input-box.small {
+  padding: 8px 12px;
+  font-size: 14px;
+  width: 200px;
+}
+
+.input-box.large {
+  padding: 12px 20px;
+  font-size: 18px;
+  width: 400px;
+}
+
+.input-box.dashed {
+  border-style: dashed;
+}
+
+.input-box:focus {
+  background-color: #f8f9fa;
+}
+
+
 .even-row {
   background-color: #f9f9f9;
 }
